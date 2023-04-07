@@ -1,10 +1,10 @@
-# GoDoRP
-GoDoRP (Golang, Docker, React, Postgres) project starter.
+# Golang-React-psql-docker
+Golang-React-psql-docker (Golang, Docker, React, Postgres) project starter.
 
 Disclaimer: This project is not actively supported and not recommended for production apps. Hope it serves as a learning resource.
 
 ## Features
-* Start a GoDoRP project with one command on any computer with docker-compose installed
+* Start a this project with one command on any computer with docker-compose installed
 * Dev mode features hot reloading on code changes for both the GoLang backend and React frontend (no need to rebuild containers while coding)
 * Production mode features optimized static React frontend and binary goLang backend
 * Production images built by passing a single arg option (images can then run on any computer with Docker)
@@ -22,7 +22,7 @@ Then run the following commands:
 ```bash
 $ mkdir myApp
 $ cd myApp
-$ git clone https://github.com/McMenemy/GoDoRP.git .
+$ git clone https://github.com/bomber0325/Golang-React-psql-docker.git .
 $ docker-compose up
 ```
 Then you can open the React frontend at localhost:3000 and the RESTful GoLang API at localhost:5000
